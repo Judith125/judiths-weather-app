@@ -1,0 +1,73 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  color: darkslategrey;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+
+li {
+  color: darkslategrey;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 20px;
+  list-style: none;
+}
+
+ul {
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+.weather-app {
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 4px;
+}
+
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+.temperature {
+  color: darkslategrey;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -30px;
+}
+
+.weather-search {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #ab47bd;
+  color: #fff;
+}
+
+.current {
+  background: green;
+  color: #fff;
+}
+
+.forecast {
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 4px;
+  text-align: center;
+}
